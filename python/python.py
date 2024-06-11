@@ -51,7 +51,7 @@ def set_table(the_dead):
     seated_ghosts_count = 0
     for ghost in the_dead:
         if seated_ghosts_count >= 12:
-            break  # Only seat the first 12 ghosts
+            break 
         seat = ghost_seats(ghost)
         if seat is not None:
             seating[seat - 1] = ghost
